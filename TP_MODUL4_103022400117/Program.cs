@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿class Program
+{
+    static void Main(string[] args)
+    {
+        KodePos kp = new KodePos();
+        Console.WriteLine(kp.getKodePos("Cijaura"));
+        Console.ReadLine();
+    }
+}
